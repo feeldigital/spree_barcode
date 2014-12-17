@@ -3,13 +3,13 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_barcode'
   s.version     = '2.3.2'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Adds Barcodes to a Spree store. Makes it pretty'
+  s.description = 'Spree Barcode'
   s.required_ruby_version = '>= 1.9.3'
 
-  # s.author    = 'You'
-  # s.email     = 'you@example.com'
-  # s.homepage  = 'http://www.spreecommerce.com'
+  # s.author    = 'Peter Fealey'
+  # s.email     = 'peter.fealey@feeldigital.co.uk'
+  # s.homepage  = 'http://www.feeldigital.co.uk'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -27,5 +27,4 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'sass-rails', '~> 4.0.2'
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'simplecov'
-  s.add_development_dependency 'sqlite3'
 end
